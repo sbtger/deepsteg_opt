@@ -13,7 +13,7 @@ from scipy.io import savemat, loadmat
 from scipy import misc
 from PIL import Image
 
-from aletheialib import utils
+from deepsteg.aletheialib import utils
 
 import multiprocessing
 from multiprocessing.dummy import Pool as ThreadPool 

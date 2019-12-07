@@ -7,7 +7,7 @@ import ntpath
 import tempfile
 import subprocess
 
-from aletheialib import stegosim, utils
+from deepsteg.aletheialib import stegosim, utils
 
 import numpy as np
 from scipy import ndimage
@@ -17,7 +17,7 @@ from imageio import imread
 from PIL import Image
 from PIL.ExifTags import TAGS
 
-from aletheialib.jpeg import JPEG
+from deepsteg.aletheialib.jpeg import JPEG
 
 import multiprocessing
 from multiprocessing.dummy import Pool as ThreadPool 
